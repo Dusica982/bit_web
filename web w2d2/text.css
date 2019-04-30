@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'robotoregular';
+    src:url('fonts/roboto-regular-webfont.woff') format('woff'),
+         url('fonts/roboto-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body{
+    font-size: 25px;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#first {
+    font-family: 'Rochester', cursive;
+}
+#fir {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#second {
+    font-family: 'robotoregular';
+    font-style: oblique;
+}
+
+#sec {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#third {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#thir {
+    font-family: fantasy;
+}
+
+span{
+    font-weight: 900;
+    font-style: italic;
+}
