@@ -1,0 +1,15 @@
+#glavnired{
+    background-color: red;
+    border: 0px;
+    
+
+}
+
+tr:nth-child(odd) {
+    background: gray
+}
+
+
+tr:hover {
+    background-color: yellow;
+}
