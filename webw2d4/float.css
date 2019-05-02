@@ -1,0 +1,55 @@
+#main {
+    width: 100%;
+    position: absolute;
+}
+
+#mainbox{
+    padding: 1px;
+    float: right;
+}
+
+.navigation{
+    position: relative;
+    background-color: brown;
+    padding: 10px;
+    float: right;
+    width: 960px;
+    list-style-type: none;
+    
+}
+.cf:before,
+.cf:after{
+::content;
+display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+#navigation1{
+     float: right;
+    list-style-type: none;
+}
+
+#navigation2{
+    float: right;
+    list-style-type: none;
+}
+
+#navigation3{
+    float: right;
+    list-style-type: none;
+}
+
+#navigation4{
+    float: right;
+    list-style-type: none;
+}
+
+#listelements{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}

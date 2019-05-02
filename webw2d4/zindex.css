@@ -1,0 +1,68 @@
+h1 {
+    color: brown;
+    text-align: center;
+}
+
+.one {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    
+}
+
+.two {
+    height: 200px;
+    width: 200px;
+    background-color:green; 
+    
+}
+
+.three {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    
+}
+
+
+
+
+#something1 {
+    position: relative;
+
+}
+
+#something2 {
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+}
+
+#something3{
+    position: relative;
+    left: 200px;
+    bottom:200px;
+}
+
+
+
+#something11 {
+    position: absolute;
+right: 600px;
+top:1400px;
+z-index: 15;
+}
+
+#something22 {
+    position: absolute;
+right:700px;
+top: 1500px;
+z-index: 10;
+}
+
+#something33 {
+    position: absolute;
+    right: 800px;
+top: 1600px;
+z-index: 5;
+}

@@ -1,0 +1,21 @@
+.textandphotos{
+    position: absolute;
+}
+
+#grad{
+    position: relative;
+    left: 100px;
+    top:50px;
+}
+
+#cvet{
+position: absolute;
+width: 500px;
+right:10px;
+top:15px;
+}
+
+#priroda{
+    position:absolute;
+    bottom:1px;
+}
