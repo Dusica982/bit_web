@@ -1,0 +1,7 @@
+.midbody{
+    background-image: url("table.jpg");
+    background-repeat: repeat-x; 
+    background-attachment: fixed;
+    background-position-x: right center;
+    background-size: cover;
+}
