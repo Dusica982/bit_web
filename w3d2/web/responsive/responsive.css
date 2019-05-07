@@ -1,0 +1,173 @@
+.cf::before,
+.cf::after{
+    content: "";
+    display: table;
+}
+.cf::after{
+    clear: both;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    position: relative;
+    width: 960px;
+    background-color: #e7e7e7;
+    margin: auto;
+
+}
+
+
+header h1{
+    float: left;
+    margin: 12px 5px;
+    padding: 6px;
+}
+
+header nav{
+    float: right;
+}
+
+header nav a{
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: #4040ff;
+    padding: 10px;
+    margin: 12px 5px;
+
+}
+nav .active{
+    border-radius: 7px;
+    background-color: #4040ff;
+    color: white;
+}
+
+
+.bgimage{
+    padding: 10px;
+}
+
+.bgimage img{
+    width: 100%;
+}
+
+.main{
+    float: left;
+    width: 100%;
+
+}
+
+.articles article{
+    display: inline;
+    margin: 1px;
+}
+
+article{
+   
+    width: 33%;
+    float: left;
+
+
+}
+
+article img{
+    padding: 5px;
+    width: 100%;
+
+}
+
+article p{
+    padding: 5px;
+    width: 100%;
+}
+
+
+
+.mobile{
+    display: none;
+}
+
+
+.mobile a{
+    display: block;
+    height: 30px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #4040ff;
+    border-radius: 3px;
+}
+
+/* medium devices */
+
+@media(max-width: 992px){
+
+    .container{
+        width: 100%;
+    }
+    
+    .articles article{
+        width: 100%;
+        display: block;
+        margin: 1px;
+    }
+
+    article img{
+        display: inline-block;
+        width: 40%;
+    
+    }
+    
+    article p{
+display: inline-block;
+width: 50%;
+vertical-align: top;
+    }
+
+}
+
+
+/*small devices*/
+
+@media only screen and (max-width: 768px) {
+  
+    .container{
+        width: 100%;
+    }
+
+    .articles article{
+        display: block;
+        margin: 1px;
+    }
+
+    article img{
+
+        width: 100%;
+    
+    }
+    
+    article p{
+width: 100%;
+    }
+
+.desktop{
+    display: none;
+}
+
+.mobile{
+    display: block;
+}
+
+.mainhead{
+    text-align: center;
+    float: none;
+}
+
+}
+
+
+

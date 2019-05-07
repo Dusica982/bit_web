@@ -1,25 +1,23 @@
 #main {
-    width: 100%;
     position: absolute;
+    width: 960px;
+
 }
 
-#mainbox{
-    padding: 1px;
-    float: right;
-}
+
 
 .navigation{
-    position: relative;
+
     background-color: brown;
     padding: 10px;
-    float: right;
-    width: 960px;
-    list-style-type: none;
+
     
 }
+
+
 .cf:before,
 .cf:after{
-::content;
+content: "";
 display: table;
 }
 
@@ -28,28 +26,55 @@ display: table;
 }
 
 
-#navigation1{
+.navigation li{
+    display: inline;
+    color: aliceblue;
+}
+
+.navigation ul{
      float: right;
-    list-style-type: none;
+     list-style-type: none;
+
 }
 
-#navigation2{
-    float: right;
-    list-style-type: none;
-}
 
-#navigation3{
-    float: right;
-    list-style-type: none;
-}
+.rect300200{
 
-#navigation4{
-    float: right;
-    list-style-type: none;
-}
-
-#listelements{
     height: 200px;
-    width: 200px;
-    background-color: red;
 }
+
+.red{
+    background-color: red;
+    text-align: center;
+}
+
+.green{
+background-color: green;
+text-align: center;
+}
+
+.yellow{
+background-color: yellow;
+text-align: center;
+}
+
+.blue{
+background-color: blue;
+text-align: center;
+}
+
+
+.item{
+    width: 300px;
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+    
+}
+
+.item li{
+    border: 0 solid black;
+    border-bottom-width: 1px;
+}
+
