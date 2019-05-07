@@ -1,0 +1,30 @@
+.row{
+    float: left;
+    display: block;
+
+}
+
+#firstimage{
+    position: absolute;
+    height: 200px;
+    display: block;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+}
+
+#secondimage{
+    position: absolute;
+    width: 200px;
+    display: block;
+    float: center;
+}
+
+#thirdimage{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    display: block;
+    float: left;
+}
