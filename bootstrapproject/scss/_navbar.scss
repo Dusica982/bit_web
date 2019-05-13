@@ -1,0 +1,29 @@
+@import "variables";
+@import "global";
+
+header {
+    height: 60px;
+    background-color: $blueish;
+    color: $text-color;
+    font-family: 'Lato-Black';
+}
+
+.logo h3 {
+    margin-top: 10px;
+
+}
+
+.main-menu{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+
+    li {
+        padding: 0 15px;
+        font-size: 15px;
+
+        &:last-child {
+            padding-right: 0;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+@import "variables";
+@import "global";
+
+.portfolio-section{
+    padding: 80px 0;
+
+    .title-section{
+        
+        h2{
+            font-family: "Lato-Black";
+           
+        }
+    }
+
+    img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

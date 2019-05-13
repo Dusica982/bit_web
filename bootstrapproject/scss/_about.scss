@@ -1,0 +1,41 @@
+@import "variables";
+@import "global";
+
+.about-section {
+    background-color: $greenish;
+}
+.about-section {
+    background-color: $greenish;
+    padding: 80px 0;
+    color: $text-color;
+
+    .title-section {
+
+        .separator {
+            &:before,
+            &:after {
+                background-color: $text-color;
+            }
+        }
+
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    .find-out-more{
+        display: inline-block;
+        text-align: center;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid $text-color;
+        border-radius: 3px;
+
+        a {
+            color: $text-color;
+            padding-left:10px;
+        }
+    }
+
+}
