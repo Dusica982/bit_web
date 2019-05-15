@@ -1,0 +1,11 @@
+.colorblue {
+  background-color: blue;
+}
+.colorred {
+  background-color: red;
+}
+
+.colorblueandtext {
+  background-color: blue;
+  text-transform: uppercase;
+}
