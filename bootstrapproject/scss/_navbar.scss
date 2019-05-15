@@ -1,5 +1,9 @@
 @import "variables";
-@import "global";
+
+@import "mixins";
+
+
+
 
 header {
     height: 60px;
@@ -17,6 +21,10 @@ header {
     display: flex;
     justify-content: flex-end;
     margin-top: 15px;
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
 
     li {
         padding: 0 15px;

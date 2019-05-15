@@ -14,28 +14,39 @@
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="logo col col-lg-6">
-                    <h3>BIT STUDENT</h3>
-                </div>
+        
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="logo col col-lg-6">
+                        <h3>BIT STUDENT</h3>
+                    </div>
+    
+                    <nav class="col col-lg-6">
 
-                <nav class="col col-lg-6">
-                    <ul class="main-menu">
-                        <li>PORTFOLIO</li>
-                        <li>ABOUT</li>
-                        <li>CONTACT</li>
-                    </ul>
-                </nav>
-            </div>
+                <ul class="nav justify-content-end main-menu">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">CONTACT</a>
+                </li>
+              </ul>
+            </nav>
         </div>
-    </header>
+    </div>
+</header>
+
+
+
     <section class="banner-section">
         <div class="container">
             <div class="row">
-                <div class="col-1"></div>
-                <div class="banner col-10">
+                <div class="col-lg-1 col-md-2"></div>
+                <div class="banner col-lg-10 col-md-8">
                     <img src="img/profile.png" alt="profile-image">
                     <div class="title-section">
                         <h1>BOOTSTRAP AND SASS</h1>
@@ -43,7 +54,7 @@
                     </div>
                     <p>Web Developer - Graphic Artist - User Experience Designer</p>
                 </div>
-                <div class="col-1"></div>
+                <div class="col-lg-1 col-md-2"></div>
             </div>
         </div>
     </section>
@@ -57,19 +68,26 @@
                         <span class="separator"><i class="fa fa-star"></i></span>
                     </div>
                 </div>
-                <div class="col -12">
+                <div class="12">
                     <div class="row">
-                        <div class="col-4">
-                            <a href="#"><img src="/img/portfolio/cabin.png" alt="cabin"></a>
-                            <a href="#"><img src="/img/portfolio/game.png" alt="game"></a>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <a href="#"><img src="img/portfolio/cabin.png" alt="cabin"></a>
                         </div>
-                        <div class="col-4">
-                            <a href="#"><img src="/img/portfolio/cake.png" alt="cake"></a>
-                            <a href="#"><img src="/img/portfolio/safe.png" alt="safe"></a>
+                        <div class="col-lg-4 col-md-6 col-12">
+                        <a href="#"><img src="img/portfolio/game.png" alt="game"></a>
                         </div>
-                        <div class="col-4">
-                            <a href="#"><img src="/img/portfolio/circus.png" alt="circus"></a>
-                            <a href="#"><img src="/img/portfolio/submarine.png" alt="submarine"></a>
+                        
+                        <div class="col-lg-4 col-md-6 col-12">
+                        <a href="#"><img src="img/portfolio/cake.png" alt="cake"></a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                        <a href="#"><img src="img/portfolio/safe.png" alt="safe"></a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                        <a href="#"><img src="img/portfolio/circus.png" alt="circus"></a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                        <a href="#"><img src="img/portfolio/submarine.png" alt="submarine"></a>
                         </div>
                     </div>
                 </div>
@@ -81,28 +99,31 @@
         <div class="container">
             <div class="row">
                 <div class="col-2"></div>
-                <div class="col-8">
+                <div class="col-lg-8 col-md-12">
                     <div class="title-section">
                         <h2>ABOUT</h2>
                         <span class="separator"><i class="fa fa-star"></i></span>
                     </div>
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-lg-6 col-md-12">
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae distinctio, repellat
                                 quasi esse vel tempora dolorum voluptates maxime aspernatur minima, nam doloribus,
                                 veritatis quis cupiditate repudiandae provident! Quo molestiae tempora error a earum
                                 exercitationem aperiam dicta ducimus voluptatibus enim porro temporibus similique quia
                                 officiis debitis, cumque, ullam nostrum totam perferendis.</p>
                         </div>
-                        <div class="col-6">
+                        <div class="col-lg-6 col-md-12">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ad commodi
                                 exercitationem, optio quisquam consequatur ex culpa. Excepturi, repellendus atque qui
                                 ex, consequuntur unde blanditiis beatae officiis culpa, quod pariatur iure adipisci at
                                 ducimus tempore autem eveniet inventore? Eius nisi culpa saepe, sint consequuntur ipsum
                                 eveniet a mollitia et reiciendis!</p>
                         </div>
+                        <span class="find-out-more"><i class="fas fa-info-circle"></i><a href="#">Find Out More</a></span>
                     </div>
-                    <span class="find-out-more"><i class="fas fa-info-circle"></i><a href="#">Find Out More</a></span>
+                    
+                    
+                    
                 </div>
                 <div class="col-2"></div>
             </div>
@@ -118,13 +139,17 @@
                         <h2>CONTACT ME</h2>
                         <span class="separator"><i class="fa fa-star"></i></span>
                     </div>
-                    <form action="#" method="GET">
-                        <input type="text" name="name" placeholder="Name">
-                        <input type="email" name="email" placeholder="Email Address">
-                        <input type="number" name="number" placeholder="Phone Number">
-                        <textarea placeholder="Message"></textarea>
+                        <form class="form-form" action="#" method="GET">
+                            <input type="text" name="name" placeholder="Name">
+                            <input type="email" name="email" placeholder="Email Address">
+                            <input type="number" name="number" placeholder="Phone Number">
+                            <textarea placeholder="Message"></textarea>
+                            <div>
+                                <button type="button" class="btn btn-info">Send</button>
+                            </div>
+                        </form>
+                    
 
-                    </form>
 
                 </div>
                 <div class="col-2"></div>
@@ -133,28 +158,38 @@
 
     </section>
 
-    <section>
+    <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-4">
+            <div class="footer-top row">
+                <div class="footer-info col-lg-4 col-md-4 col-12">
                     <h4>LOCATION</h4>
-                    <p>Centar za obrazovanje BIT TECHNOLOGY Nemanjina 4/I, Beograd</p>
+                    <p>Centar za obrazovanje</p>
+                    <p> BIT TECHNOLOGY</p>
+                    <p>Nemanjina 4/I, Beograd</p>
                 </div>
-                <div class="col-4">
+                <div class="footer-info col-lg-4 col-md-4 col-12">
                     <h4>AROUND THE WEB</h4>
-                    <div></div>
+                    <div class="social-icons">
+                        <span><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></span>
+                        <span><a href="https://www.google.com/" target="_blank"><i class="fab fa-google-plus-g"></i></a></span>
+                        <span><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></span>
+                        <span><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a></span>
+                    </div>
                 </div>
-                <div class="col-4">
+                <div class="footer-info col-lg-4 col-md-4 col-12">
                     <h4>MORE DETAILS</h4>
                     <p>We believe that the future of Serbia firmly depends on our ability to scle the number of
                         individuals involved in the IT sector. That is why we founded BIT.</p>
                 </div>
             </div>
-
-
-
+            <div class="footer-bottom row">
+                <div class="col-12">
+                    <p>Copyright &copy; BIT Student 2019</p>
+                    <small>Lorem ipsum dolor sit.</small>
+                </div>
+            </div>
         </div>
-    </section>
+    </footer>
 
 
 

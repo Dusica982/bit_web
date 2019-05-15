@@ -1,13 +1,18 @@
 @import "variables";
-@import "global";
+@import "mixins";
 
-.about-section {
-    background-color: $greenish;
-}
+// .about-section {
+//     background-color: $greenish;
+    
+// }
 .about-section {
     background-color: $greenish;
     padding: 80px 0;
     color: $text-color;
+    text-align: center;
+    
+
+    
 
     .title-section {
 
@@ -25,7 +30,8 @@
     }
 
     .find-out-more{
-        display: inline-block;
+        display: block;
+        margin: auto;
         text-align: center;
         padding: 10px;
         box-sizing: border-box;
