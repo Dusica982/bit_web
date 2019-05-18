@@ -6,7 +6,7 @@
 
 
 header {
-    height: 60px;
+    height: 80px;
     background-color: $blueish;
     color: $text-color;
     font-family: 'Lato-Black';
@@ -14,24 +14,52 @@ header {
 
 .logo h3 {
     margin-top: 10px;
+    padding-right: 50px;
+    color: $text-color;
+    font-family: 'Lato-Black';
 
 }
 
-.main-menu{
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 15px;
-    a {
-        text-decoration: none;
-        color: #fff;
+.bg-light{
+    background-color: $blueish;
+}
+
+#navbarTogglerDemo03{
+    color: $text-color;
+    font-family: 'Lato-Black';
+}
+
+.navbar {
+    background-color: $blueish; 
+}
+
+
+
+
+@include tablet-portrait {
+    .navbar-toggler {
+        font-family: 'Lato-Regular';
+        border: 1px solid white ! important;
+        font-size: 16px;
+    }
+    #menu-button{
+        width: 17px;
     }
 
-    li {
-        padding: 0 15px;
-        font-size: 15px;
+    .navbar-toggler-icon {
+        height: 20px;
+        position: relative;
+        top: -1px;
+    }
 
-        &:last-child {
-            padding-right: 0;
-        }
+}
+
+
+
+@include mobile {
+    .navbar-toggler {
+        font-family: 'Lato-Black';
+        background-color: #18bc9c;
+        border-width: 0 ! important;
     }
 }
