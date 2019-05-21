@@ -15,7 +15,7 @@ body {
 }
 
 .background {
-  background-image: url("/images/bg.jpg");
+  background-image: url("images/bg.jpg");
   -webkit-animation: 5s infinite;
   position: relative;
   width: 100%;
