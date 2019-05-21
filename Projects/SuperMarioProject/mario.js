@@ -1,35 +1,40 @@
-var background = document.querySelector('div');
-var marioStatic = document.querySelector('#staticmario');
-var marioDinamic = document.querySelector('#movingmario');
+var background = document.querySelector('.background');
+var marioStatic = document.querySelector('.background .mario .staticmario');
+var marioDinamic = document.querySelector('.background .mario .movingmario');
+var moving = 0;
 
 
-marioDinamic.addEventListener('moveRight');
-
-function moveRight(event) {
-    marioDinamic.style.visibility = "visible";
-    background.style.animation = "moveDinamic 9s linear infinite";
-
-}
-
-
-
-function stop(event) {
-    marioStatic.style.visibility = "hidden";
-}
-
-
-
-
-
-function keyBoard(event) {
-    if (event.keyCode === 39) {
-        moveRight();
-    } else {
-        (event.keyCode === 40)
-        stop();
-
+function movePlayer(event) {
+    if (!moving) {
+        if (event.keyCode === 39) {
+            marioDinamic.style.display = "block";
+            marioStatic.style.display = "none";
+            background.style.animation = "slide 5s infinite";
+            // } else (event.keyCode === 38);
+            // marioDinamic.style.display = "block";
+            // marioStatic.style.display = "none";
+            // background.style.animation = " 5s infinite";
+        }
     }
+
+    moving++;
 }
+
+function stopPlayer(event) {
+
+    marioDinamic.style.display = "none";
+    background.style.animation = "none";
+    marioStatic.style.display = "block";
+    moving = 0;
+}
+
+
+
+
+
+
+document.addEventListener("keydown", movePlayer);
+document.addEventListener("keyup", stopPlayer);
 
 
 
